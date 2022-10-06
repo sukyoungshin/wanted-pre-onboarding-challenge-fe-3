@@ -4,7 +4,7 @@
 
 ## 1️⃣ 사전과제
 
-## 2022-10-04
+## 2️⃣ 2022-10-04
 React와 History API 사용하여 SPA Router 기능 구현하기
 
  <details>
