@@ -2,10 +2,14 @@ import { Button, Wrapper } from "@/components";
 
 const About = () => {
 
+  const handleClick = () => {
+    console.log('go to main');
+  };
+
   return (
     <Wrapper>
       <h1>about</h1>
-      <Button>
+      <Button onClick={handleClick}>
         Root
       </Button>
     </Wrapper>
