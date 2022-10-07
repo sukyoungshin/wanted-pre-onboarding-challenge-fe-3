@@ -1,5 +1,6 @@
+import Route from "@/lib/components/route";
+import Router from "@/lib/components/router";
 import { About, Root } from "@/pages";
-import { Route, Router } from "./hooks/useRouter";
 
 const App = () => {
 
