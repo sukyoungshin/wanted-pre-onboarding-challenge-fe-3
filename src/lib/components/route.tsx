@@ -1,16 +1,16 @@
-import { useState } from "react";
+import { useContext } from "react";
+import { LocationContext } from "./router";
 
 interface RouteProps {
   path: string;
   component: React.ReactElement;
-}
+};
 
 const Route = ({ path, component }: RouteProps) => {
-  const [ currentPath, setCurrentPath ] = useState(path);
-  window.onpopstate = () => setCurrentPath(window.location.pathname);
+  const {location: currentLocation } = useContext(LocationContext);
 
-  if (currentPath !== path) return (<></>);
-  else return component;
+  if (currentLocation !== path) return <></>;
+  return component;
 };
 
 export default Route;

@@ -1,16 +1,18 @@
-import { useState } from "react";
+import { useContext } from "react";
+import { LocationContext } from "@/lib/components/router";
 
-// FIXME: 브라우저에서 한번 느리게 이동됨
-const useRouter = () => {
-  const [ state, setState ] = useState({});
-  const [ title, setTitle] = useState('');
-  const [ url, setUrl ] = useState('');
+interface UseRouterProps {
+  push: (url: string) => void;
+}
+
+const useRouter = (): UseRouterProps => {
+  const { setLocation } = useContext(LocationContext);
   
-  const push = (_url: string) => {
-    setUrl(_url);
-    history.pushState(state, title, url);
+  const push = (url: string) => {
+    setLocation(url);
+    history.pushState({}, document.title, url);
   };
-
+  
   return { push };
 };
 
