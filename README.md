@@ -40,3 +40,13 @@ React와 History API 사용하여 SPA Router 기능 구현하기
  </details>
 
 
+ <details>
+  <summary>구현 시 어려웠던 점</summary>
+  <br/>
+
+  1) 브라우저 pathname 변경 후, match되는 페이지로 이동하도록 구현하는 과정을 생각하는 과정이 쉽지 않았습니다.
+  2) context API와 History API를 처음 사용하다보니 용법이 익숙하지 않아서 헤맸습니다.
+  3) TypeScript에서 타입 지정하는 것이 어려웠습니다. 
+
+ </details>
+
