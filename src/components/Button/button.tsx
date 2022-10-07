@@ -3,7 +3,7 @@ import { Colors } from '@/common/style-utils';
 
 interface ButtonProps {
   onClick: () => void;
-  children: React.ReactElement;
+  children: string;
 };
 
 const Button = ({onClick, children}: ButtonProps) => {

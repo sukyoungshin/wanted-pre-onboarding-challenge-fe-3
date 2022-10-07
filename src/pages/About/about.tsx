@@ -10,7 +10,7 @@ const About = () => {
     <Wrapper>
       <h1>about</h1>
       <Button onClick={handleClick}>
-        Root
+        go to main
       </Button>
     </Wrapper>
   );

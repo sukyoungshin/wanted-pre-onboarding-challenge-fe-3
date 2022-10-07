@@ -31,6 +31,11 @@ const GlobalStyle = createGlobalStyle`
     min-width: 320px;
     min-height: 100vh;
   }
+
+  #root {
+    width: 100%;
+    height: 100vh;
+  }
 `;
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(

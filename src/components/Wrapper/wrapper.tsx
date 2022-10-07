@@ -1,10 +1,6 @@
 import styled from 'styled-components';
 
-interface WrapperProps {
-  children: React.ReactElement;
-}
-
-const Wrapper = ({children}: WrapperProps) => {
+const Wrapper = ({ children }: React.PropsWithChildren) => {
 
   return (
     <StyledWrapper>
@@ -15,7 +11,10 @@ const Wrapper = ({children}: WrapperProps) => {
 export default Wrapper;
 
 const StyledWrapper = styled.div`
+  height: 100%;
+
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 `;
