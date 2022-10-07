@@ -1,11 +1,16 @@
 import styled from 'styled-components';
 import { Colors } from '@/common/style-utils';
 
-const Button = (props: any) => {
+interface ButtonProps {
+  onClick: () => void;
+  children: React.ReactElement;
+};
+
+const Button = ({onClick, children}: ButtonProps) => {
 
   return (
-    <StyledButton onClick={props.onClick}>
-      {props.children}
+    <StyledButton onClick={onClick}>
+      {children}
     </StyledButton>
   )
 };

@@ -1,10 +1,14 @@
 import styled from 'styled-components';
 
-const Wrapper = (props: any) => {
+interface WrapperProps {
+  children: React.ReactElement;
+}
+
+const Wrapper = ({children}: WrapperProps) => {
 
   return (
     <StyledWrapper>
-      {props.children}
+      {children}
     </StyledWrapper>
   )
 };
