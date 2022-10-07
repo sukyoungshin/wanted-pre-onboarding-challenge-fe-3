@@ -1,10 +1,9 @@
 import { Button, Wrapper } from "@/components";
+import useRouter from "@/lib/hooks/useRouter";
 
 const About = () => {
-
-  const handleClick = () => {
-    console.log('go to main');
-  };
+  const { push } = useRouter();
+  const handleClick = () => push("/");
 
   return (
     <Wrapper>
