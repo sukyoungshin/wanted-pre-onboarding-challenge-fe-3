@@ -1,9 +1,13 @@
 import { About, Root } from "@/pages";
+import { Route, Router } from "./hooks/useRouter";
 
 const App = () => {
 
   return (
-    <>App</>
+    <Router>
+      <Route path="/" component={<Root />} />
+      <Route path="/about" component={<About />} />
+    </Router>
   )
 };
 
