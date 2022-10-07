@@ -1,9 +1,10 @@
+import { URLs } from "@/common/urls-utils";
 import { Button, Wrapper } from "@/components";
 import useRouter from "@/lib/hooks/useRouter";
 
 const About = () => {
   const { push } = useRouter();
-  const handleClick = () => push("/");
+  const handleClick = () => push(URLs.root);
 
   return (
     <Wrapper>
