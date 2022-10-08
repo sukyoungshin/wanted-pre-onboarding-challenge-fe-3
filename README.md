@@ -5,7 +5,7 @@
 ## 1️⃣ 사전과제
 
 ## 2️⃣ 2022-10-04
-React와 History API 사용하여 SPA Router 기능 구현하기 [코드](https://github.com/sukyoungshin/wanted-pre-onboarding-challenge-fe-3), [배포링크](https://wanted-pre-onboarding-challenge-fe-3-three.vercel.app/)
+React와 History API 사용하여 SPA Router 기능 구현하기 [레포](https://github.com/sukyoungshin/wanted-pre-onboarding-challenge-fe-3), [배포링크](https://wanted-pre-onboarding-challenge-fe-3-three.vercel.app/)
 
  <details>
   <summary>과제 설명</summary>
@@ -52,7 +52,7 @@ React와 History API 사용하여 SPA Router 기능 구현하기 [코드](https:
 
 ## 3️⃣ 2022-10-08
 
-Next.js로 마크다운으로 작성한 블로그를 정적 페이지(SSG)로 작성하기 [코드](https://github.com/sukyoungshin/blog)
+Next.js로 마크다운으로 작성한 블로그를 정적 페이지(SSG)로 작성하기 [레포](https://github.com/sukyoungshin/blog)
 
 <details>
  <summary>과제 설명</summary>
