@@ -7,7 +7,7 @@
 ## 2️⃣ 2022-10-04
 React와 History API 사용하여 SPA Router 기능 구현하기 [레포](https://github.com/sukyoungshin/wanted-pre-onboarding-challenge-fe-3), [배포링크](https://wanted-pre-onboarding-challenge-fe-3-three.vercel.app/)
 
- <details>
+<details>
   <summary>과제 설명</summary>
   <br/>
 
@@ -40,7 +40,56 @@ React와 History API 사용하여 SPA Router 기능 구현하기 [레포](https:
  </details>
 
 
- <details>
+<details>
+ <summary>설치 및 실행 (yarn) </summary>
+ <br/>
+ 
+ ### 설치
+ ```
+ yarn install
+ ```
+
+ ### 실행
+ ```
+ yarn dev 
+ ```
+ 
+ ### package.json
+ ```
+ {
+  "name": "wanted-pre-onboarding-challenge-fe-3",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.2",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@types/styled-components": "^5.1.26",
+    "@vitejs/plugin-react": "^2.1.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  }
+}
+ ```
+ 
+</details>
+
+
+<details>
   <summary>구현 시 어려웠던 점</summary>
   <br/>
 
