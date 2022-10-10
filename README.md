@@ -156,6 +156,17 @@ Next.js로 마크다운으로 작성한 블로그를 정적 페이지(SSG)로 �
 </details>
 
 <details>
+  <summary>구현 시 어려웠던 점</summary>
+  <br/>
+  
+  1) Next.js를 가볍게 써보긴 했지만, SSG를 써본것은 처음이라 개념이 어려웠습니다.
+  2) getStaticPaths, getStaticProps => 아직도 개념 잘 모르겠습니다. 추후 공부 더 필요.
+  3) 타입스크립트가 어려워서 오늘도 고통받았습니다. deploy시 타입스크립트 린트 에러때문에 배포 실패하여 고통받았습니다. (으악)
+  4) library 사용방법이 어려웠습니다.
+
+</details>
+
+<details>
  <summary>설치 및 실행 (yarn) </summary>
  <br/>
  
@@ -170,5 +181,33 @@ Next.js로 마크다운으로 작성한 블로그를 정적 페이지(SSG)로 �
  ```
 
 ### package.json
+ {
+  "name": "wanted-pre-onboarding-challenge-fe-3",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.2",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@types/styled-components": "^5.1.26",
+    "@vitejs/plugin-react": "^2.1.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  }
+} 
  
 </details>
