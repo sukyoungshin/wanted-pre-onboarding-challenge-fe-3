@@ -101,7 +101,7 @@ React와 History API 사용하여 SPA Router 기능 구현하기 [레포](https:
 
 ## 3️⃣ 2022-10-08
 
-Next.js로 마크다운으로 작성한 블로그를 정적 페이지(SSG)로 작성하기 [레포](https://github.com/sukyoungshin/blog)
+Next.js로 마크다운으로 작성한 블로그를 정적 페이지(SSG)로 작성하기 [레포](https://github.com/sukyoungshin/blog), [배포링크](blog-sukyoungshin.vercel.app)
 
 <details>
  <summary>과제 설명</summary>
@@ -153,4 +153,22 @@ Next.js로 마크다운으로 작성한 블로그를 정적 페이지(SSG)로 �
 - 과제 완료 후 과제 제출 페이지에 해당 프로젝트의 github 링크로 제출해주세요. 프로젝트에 대한 간단한 소개가 README에 작성되어 있으면 좋습니다.
 - 이 외에 추가 구현하고 싶은 기능이 있으면 자유롭게 구현해주세요.
 
+</details>
+
+<details>
+ <summary>설치 및 실행 (yarn) </summary>
+ <br/>
+ 
+ ### 설치
+ ```
+ yarn install
+ ```
+
+ ### 실행
+ ```
+ yarn dev 
+ ```
+
+### package.json
+ 
 </details>
